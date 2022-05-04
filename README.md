@@ -21,4 +21,4 @@ https://github.com/AristotelesDantas/cadastro-de-motociclistas.git
 - [ ] Apresentar uma lista de dados com a diretiva estrutural ngFor.
 - [ ] Usar a diretiva ngIf.
 - [ ] Formatar a apresentação de dados com Pipes.
-- [ ] Build e deploy da aplicação.
+- [ ] Build e deploy da aplicação

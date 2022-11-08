@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Ativ2Component } from './ativ2.component';
+import { VeiculosComponent } from './veiculos.component';
 
-describe('Ativ2Component', () => {
-  let component: Ativ2Component;
-  let fixture: ComponentFixture<Ativ2Component>;
+describe('VeiculosComponent', () => {
+  let component: VeiculosComponent;
+  let fixture: ComponentFixture<VeiculosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Ativ2Component ]
+      declarations: [ VeiculosComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Ativ2Component);
+    fixture = TestBed.createComponent(VeiculosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

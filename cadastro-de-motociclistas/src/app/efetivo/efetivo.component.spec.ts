@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AtivComponent } from './ativ.component';
+import { EfetivoComponent } from './efetivo.component';
 
-describe('AtivComponent', () => {
-  let component: AtivComponent;
-  let fixture: ComponentFixture<AtivComponent>;
+describe('EfetivoComponent', () => {
+  let component: EfetivoComponent;
+  let fixture: ComponentFixture<EfetivoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AtivComponent ]
+      declarations: [ EfetivoComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AtivComponent);
+    fixture = TestBed.createComponent(EfetivoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

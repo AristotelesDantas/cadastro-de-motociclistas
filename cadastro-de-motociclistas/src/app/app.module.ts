@@ -7,6 +7,11 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { EfetivoComponent } from './efetivo/efetivo.component';
 import { VeiculosComponent } from './veiculos/veiculos.component';
+import { LoginComponent } from './login/login.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { ConsultaComponent } from './consulta/consulta.component';
+import { ConsultaNomeComponent } from './consulta-nome/consulta-nome.component';
+import { ConsultaPlacaComponent } from './consulta-placa/consulta-placa.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +20,11 @@ import { VeiculosComponent } from './veiculos/veiculos.component';
     FooterComponent,
     EfetivoComponent,
     VeiculosComponent,
+    LoginComponent,
+    InicioComponent,
+    ConsultaComponent,
+    ConsultaNomeComponent,
+    ConsultaPlacaComponent,
 
   ],
   imports: [

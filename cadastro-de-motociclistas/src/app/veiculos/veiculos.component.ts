@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-veiculos',
@@ -6,7 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./veiculos.component.css']
 })
 export class VeiculosComponent implements OnInit {
-  imagen = "/assets/resources/images/moto.png";
+  @Output() veiculo= {
+    tipoVeiculo: "moto",
+    marca: "sgh",
+    modelo: "ybr",
+    placa: "fghj",
+    emplac: "12/10/22",
+    tipoComb: "gas"
+  }
+
   constructor() { }
 
   ngOnInit(): void {

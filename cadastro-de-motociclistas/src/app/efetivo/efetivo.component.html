@@ -1,3 +1,51 @@
-<div>
-  {{title}}
-</div>
+<section class="container cadastro">
+<header class="header">
+  <h2>CADASTRO DE EFETIVO</h2>
+</header>
+<form>
+  <label for="nome">Nome de batismo</label>
+      <input
+        type="textarea"
+        class="input"
+        id="cadastro"
+        placeholder="Digite o nome"
+        [(ngModel)]="cadastro.nomeBatismo"
+      >
+
+  <label for="nomeReal">Nome Real</label>
+      <input
+        type="text"
+        class="input"
+        id="nomeReal"
+        placeholder="Digite o nome"
+        [(ngModel)]="cadastro.nomeReal"
+      >
+
+  <label for="dataAsp">Data de Aspirantado</label>
+      <input
+        type="date"
+        class="input"
+        id="dataAsp"
+        placeholder="Digite a data"
+        [(ngModel)]="cadastro.aspirantado"
+      >
+
+  <label for="fechamento">Fechamento de Colete</label>
+      <input
+        type="date"
+        class="input"
+        id="fechamento"
+        placeholder="Digite a data"
+        [(ngModel)]="cadastro.fechamentoColete"
+      >
+      <div class="irVeiculo">
+        <button routerLink="/veiculos" class="botao1"></button>
+         <p>Veículo</p>
+      </div>
+
+      <div class="acoes">
+        <button (click)="cadastroEfetivo()" class="botao">Cadastrar</button>
+        <button routerLink="/inicio" class="botao">Voltar</button>
+      </div>
+</form>
+</section>

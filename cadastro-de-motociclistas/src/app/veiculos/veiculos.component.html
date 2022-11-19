@@ -1,2 +1,54 @@
-<img [src]="imagen">
 
+<section class="container veiculo">
+  <header class="header">
+    <h2>CADASTRO DE VEÍCULO</h2>
+  </header>
+  <form>
+    <label for="veiculo" >Tipo de Veículo</label>
+     <select name="veic">
+      <option>Carro</option>
+      <option>Moto</option>
+     </select>
+    <label for="marca" >Marca</label>
+     <input
+     type="textarea"
+     class="input"
+     id="marca"
+     placeholder="Digite a marca"
+     >
+    <label for="marca" >Modelo</label>
+     <input
+     type="textarea"
+     class="input"
+     id="modelo"
+     placeholder="Digite o modelo"
+     >
+    <label for="marca" >Placa</label>
+     <input
+     type="textarea"
+     class="input"
+     id="placa"
+     placeholder="Digite a placa"
+     >
+    <label for="emplacamento" >Emplacamento</label>
+     <input
+     type="date"
+     class="input"
+     id="emplacamento"
+     >
+    <label for="combustivel" >Tipo de combustivel</label>
+    <select name="comb">
+      <option>Gasolina</option>
+      <option>Etanol</option>
+      <option>Diesel</option>
+      <option></option>
+     </select>
+
+     <div class="acoes">
+      <button class="botao">Cadastrar</button>
+      <button routerLink="/efetivo" class="botao">Voltar</button>
+    </div>
+
+  </form>
+
+  </section>

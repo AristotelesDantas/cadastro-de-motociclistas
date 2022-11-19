@@ -1,41 +1,67 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.header {
+text-align: center;
 }
 
-header{
-  width:100%;
-  background-color: mediumvioletred;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.logo-imagem{
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-}
-
-.container-logo{
+.acoes {
   display: flex;
+  justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
-.logo-texto{
-  margin-left: 20px;
+.botao {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
 }
 
-.menu li{
-  display: inline-block;
-  margin: 0 10px;
+.cadastro {
+  padding: 2rem 0;
 }
 
-.menu li a{
-  font-size: 24px;
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
+.cadastro form {
+  background: #C4EDFF;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.cadastro form label {
+  color: #154580;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.cadastro form .input {
+  border: none;
+  height: 40px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+
+.cadastro form .textarea {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+.irVeiculo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.botao1 {
+
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
 }

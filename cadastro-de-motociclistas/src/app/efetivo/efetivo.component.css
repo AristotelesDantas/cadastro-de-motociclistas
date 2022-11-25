@@ -1,4 +1,4 @@
-.header {
+header {
 text-align: center;
 }
 
@@ -19,24 +19,35 @@ text-align: center;
   padding: 2rem 0;
 }
 
-.cadastro form {
-  background: #C4EDFF;
+form {
+  position: absolute;
   border: none;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  margin-left: 560px;
+  width: 270px;
+  background: #C4EDFF;
+}
+
+.input-field {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
 
 .cadastro form label {
   color: #154580;
   font-weight: bold;
   margin: 0 0 1rem;
+  text-align: center;
 }
 
 .cadastro form .input {
   border: none;
-  height: 40px;
+  height: 10px;
   padding: 1rem 2rem;
   border-radius: 20px;
   margin: 0.5rem 0 2rem;
@@ -58,10 +69,16 @@ text-align: center;
 }
 
 .botao1 {
-
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 10px;
   width: 30px;
   height: 30px;
+}
+
+@media screen and (max-width: 910px) {
+  .container {
+    width: 100%;
+  }
+
 }

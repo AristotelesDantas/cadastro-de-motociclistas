@@ -7,25 +7,36 @@
 
  <label for="data">Inicio</label>
     <input
+    name="dateInicio"
       type="date"
       class="input"
       id="data"
+      [formControl]="forConsAsp"
+      required
     >
+    <div *ngIf="forConsAsp.get('dateInicio')?.hasError('required') && forConsAsp.get('dateInicio')?.touched" class="red-text" >
+      Data obrigatoria.
+    </div>
 
     <label for="data">Fim</label>
     <input
+    name="nameFim"
       type="date"
       class="input"
       id="data"
+      [formControl]="forConsAsp"
+      required
     >
-
-    <div class="botao">
-      <button class="botao1"></button>
-      <p>CONSULTAR</p>
+    <div *ngIf="forConsAsp.get('dateInicio')?.hasError('required') && forConsAsp.get('dateInicio')?.touched" class="red-text" >
+      Data obrigatoria.
+    </div>
+  </div>
+    <div class="cons">
+     <div class="botao">
+      <button >CONSULTAR</button>
+     </div>
+     <div class="botao">
+      <button routerLink="/consulta" >VOLTAR</button>
+     </div>
     </div>
 
-    <div class="botao">
-      <button routerLink="/consulta" class="botao1"></button>
-      <p>VOLTAR</p>
-    </div>
-</div>

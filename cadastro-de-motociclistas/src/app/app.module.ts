@@ -13,7 +13,9 @@ import { ConsultaComponent } from './consulta/consulta.component';
 import { ConsultaNomeComponent } from './consulta-nome/consulta-nome.component';
 import { ConsultaAspirantadoComponent } from './consulta-aspirantado/consulta-aspirantado.component';
 import { ConsultaVeiculoComponent } from './consulta-veiculo/consulta-veiculo.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TabelaConsultaComponent } from './tabela-consulta/tabela-consulta.component';
+import { UsuarioCadastradoComponent } from './usuario-cadastrado/usuario-cadastrado.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,15 @@ import { FormsModule } from '@angular/forms';
     ConsultaComponent,
     ConsultaNomeComponent,
     ConsultaAspirantadoComponent,
-    ConsultaVeiculoComponent
+    ConsultaVeiculoComponent,
+    TabelaConsultaComponent,
+    UsuarioCadastradoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

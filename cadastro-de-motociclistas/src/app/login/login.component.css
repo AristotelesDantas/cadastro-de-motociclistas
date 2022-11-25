@@ -1,3 +1,13 @@
+.header {
+  text-align: center;
+  }
+
+  .input-field {
+    text-align: center;
+    display: grid;
+    margin-bottom: 10px;
+  }
+
 .acoes {
   display: flex;
   justify-content: center;
@@ -11,24 +21,23 @@
   width: 200px;
 }
 
+.botao:disabled{
+  opacity: 0.5;
+}
+
 .login {
   padding: 2rem 0;
 }
 
 .login form {
-  background: #C4EDFF;
-
-  border: none;
-  border-radius: 20px;
-
-  display: flex;
-  flex-direction: column;
-
-  padding: 2rem;
+position: absolute;
+display: block;
+background: #ccd4d9;
+margin-left: 530px;
 }
 
 .login form label {
-  color: #154580;
+  color: #1b4472;
   font-weight: bold;
   margin: 0 0 1rem;
 }

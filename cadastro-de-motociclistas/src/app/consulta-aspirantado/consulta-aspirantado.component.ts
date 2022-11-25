@@ -1,3 +1,4 @@
+import { FormControl } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConsultaAspirantadoComponent implements OnInit {
 
+  forConsAsp: FormControl = new FormControl(null);
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.forConsAsp.value)
+  }
+
+  consultar(){
+    console.log(this.forConsAsp)
+    alert('deu certo')
   }
 
 }

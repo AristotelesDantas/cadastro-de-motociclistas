@@ -20,15 +20,15 @@
     padding: 2rem 0;
   }
 
-  .veiculo form {
-    background: #C4EDFF;
+  form {
+    position: absolute;
     border: none;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     padding: 2rem;
-
-
+    margin-left: 530px;
+    background: #ccd4d9;
   }
 
   .veiculo form label {
@@ -36,17 +36,14 @@
     font-weight: bold;
     margin: 0 0 1rem;
     text-align: center;
-
   }
 
   .veiculo form .input {
     border: none;
-    height: 40px;
+    height: 10px;
     padding: 1rem 2rem;
     border-radius: 20px;
     margin: 0.5rem 0 2rem;
-
-
   }
 
   .veiculo form .textarea {

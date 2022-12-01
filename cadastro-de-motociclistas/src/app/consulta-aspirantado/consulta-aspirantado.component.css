@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+  }
+
+  .cons {
+    text-align: center;
+  }
+
+  .cons label {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .cons .botao {
+
+    margin-right: 30px;
+    margin-left: 680px;
+    margin-top: 30px;
+    width: 100px;
+    height: 25px;
+  }

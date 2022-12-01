@@ -1,0 +1,23 @@
+<header class="header">
+  <h2>CONSULTA POR NOME</h2>
+</header>
+
+<div class="cons">
+ <label for="nome">Nome de batismo</label>
+    <input
+      type="text"
+      class="input"
+      id="nome"
+      placeholder="Digite o nome"
+      [formControl]="forConsulta"
+    >
+</div>
+
+<div class="cons">
+  <button  class="botao1"
+  [disabled]="forConsulta.invalid"
+  type="button"
+  (click)="consultar()">CONSULTAR
+</button>
+    <button routerLink="/consulta" class="botao1">VOLTAR</button>
+</div>

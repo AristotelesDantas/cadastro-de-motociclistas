@@ -1,0 +1,30 @@
+<header class="header">
+  <h2>CONSULTA POR VEÍCULO</h2>
+</header>
+
+<div class="cons">
+<div class="placa">
+ <label for="placa">Digite a placa</label>
+    <input
+      type="text"
+      class="input"
+      id="placa"
+      placeholder="Digite a placa"
+      [formControl]="forConsPlaca"
+    >
+  </div>
+</div>
+
+<div class="cons">
+  <div class="botao">
+    <button
+    class="botao1"
+    [disabled]="forConsPlaca.invalid"
+    type="button"
+    (click)="consultar()">CONSULTAR</button>
+  </div>
+
+  <div class="botao">
+    <button routerLink="/consulta" class="botao1">VOLTAR</button>
+  </div>
+</div>

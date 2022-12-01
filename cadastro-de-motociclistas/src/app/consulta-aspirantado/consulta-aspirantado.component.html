@@ -1,0 +1,42 @@
+<header class="header">
+  <h2>CONSULTA POR DATA DE ASPIRANTADO</h2>
+</header>
+
+<div class="cons">
+ <div>Data de aspirantado</div><br><br>
+
+ <label for="data">Inicio</label>
+    <input
+    name="dateInicio"
+      type="date"
+      class="input"
+      id="data"
+      [formControl]="forConsAsp"
+      required
+    >
+    <div *ngIf="forConsAsp.get('dateInicio')?.hasError('required') && forConsAsp.get('dateInicio')?.touched" class="red-text" >
+      Data obrigatoria.
+    </div>
+
+    <label for="data">Fim</label>
+    <input
+    name="nameFim"
+      type="date"
+      class="input"
+      id="data"
+      [formControl]="forConsAsp"
+      required
+    >
+    <div *ngIf="forConsAsp.get('dateInicio')?.hasError('required') && forConsAsp.get('dateInicio')?.touched" class="red-text" >
+      Data obrigatoria.
+    </div>
+  </div>
+    <div class="cons">
+     <div class="botao">
+      <button >CONSULTAR</button>
+     </div>
+     <div class="botao">
+      <button routerLink="/consulta" >VOLTAR</button>
+     </div>
+    </div>
+

@@ -22,4 +22,3 @@ https://www.figma.com/file/SYRnQbcqrFQQyTjLLl1G0K/Cadastro-de-Motociclistas?node
 - [ ] Apresentar uma lista de dados com a diretiva estrutural ngFor.
 - [ ] Usar a diretiva ngIf.
 - [ ] Formatar a apresentação de dados com Pipes.
-- [ ] Build e deploy da aplicação
